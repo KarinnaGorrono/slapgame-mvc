@@ -11,7 +11,7 @@
 
   <link rel="stylesheet" href="assets/style/main.css">
   <link rel="stylesheet" href="assets/style/style.css">
-  <title>slapgame-mvc</title>
+  <title>Vending Machine</title>
 </head>
 
 <body>
@@ -29,6 +29,11 @@
       <div class="row">
         <div class="col-12">
           <div id="app"></div>
+          <button class="btn btn-primary" onclick="app.snackController.addMoney()">
+            add cash
+          </button>
+          <div id="money"></div>
+          <div id="snacks"></div>
         </div>
       </div>
     </div>
